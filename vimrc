@@ -1,5 +1,5 @@
 set rtp+=~/.vim/bundle/vundle/
-
+" vundle
 call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
