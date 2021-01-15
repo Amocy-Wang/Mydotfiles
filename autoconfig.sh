@@ -18,4 +18,5 @@ cd ~/Softwares/mpfr-4.0.2 && ./configure --prefix=/home/guancheng/installs/mpfr-
 cd ~/Softwares/mpc-1.1.0 && ./configure --prefix=/home/guancheng/installs/mpc-1.1.0 --with-gmp=/home/guancheng/installs/gmp-6.1.2 --with-mpfr=/home/guancheng/installs/mpfr-4.0.2 && make -j4 && make install
 
 # install the lastest cmake 
-# install 
+# (CHISEL dependency) sudo apt-get install clang-8-dev llvm-8-dev && manually install the lastest version of spdlog and mlpack. You can change the llvm-config version to specify the llvm-related libraries and include files.
+
