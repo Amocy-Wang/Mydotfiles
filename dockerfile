@@ -1,4 +1,8 @@
-###### NOTE: REPLACE THE CONTENT AT LINE 9 WITH ACCURATE TEXT.
+#### ABOUT HOW TO USE ###########
+# 1) REPLACE THE CONTENT AT LINE 13 WITH ACCURATE TEXT.
+# 2) docker build -t sshubuntu .
+# 3) docker run -d -p FREE_PORT_NUM:22 sshubuntu
+# 4) ssh -i idkey root@localhost -p 2022
 FROM ubuntu:16.04
 RUN apt-get --assume-yes update
 RUN apt-get --assume-yes install vim tmux autoconf automake bison build-essential clang doxygen flex g++ git libncurses5-dev libtool libsqlite3-dev make mcpp python sqlite zlib1g-dev subversion tree iotop gawk m4 zsh gcc-multilib g++-multilib libssl-dev
