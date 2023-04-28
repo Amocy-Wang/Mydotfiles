@@ -5,7 +5,7 @@
 # 4) ssh -i idkey root@localhost -p 2022
 FROM ubuntu:16.04
 RUN apt-get --assume-yes update
-RUN apt-get --assume-yes install vim tmux autoconf automake bison build-essential clang doxygen flex g++ git libncurses5-dev libtool libsqlite3-dev make mcpp python sqlite zlib1g-dev subversion tree iotop gawk m4 zsh gcc-multilib g++-multilib libssl-dev
+RUN apt-get --assume-yes install vim tmux autoconf automake bison build-essential clang doxygen flex g++ git libncurses5-dev libtool libsqlite3-dev make mcpp python sqlite zlib1g-dev subversion tree iotop gawk m4 zsh gcc-multilib g++-multilib libssl-dev curl zip
 RUN apt update && apt install  openssh-server sudo -y
 # Create sshuser directory in home
 RUN mkdir -p /.ssh

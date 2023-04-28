@@ -5,7 +5,7 @@ mkdir installs
 mkdir projects
 mkdir Softwares
 sudo apt-get --assume-yes update
-sudo apt-get --assume-yes install vim tmux autoconf automake bison build-essential clang doxygen flex g++ git libncurses5-dev libtool libsqlite3-dev make mcpp python sqlite zlib1g-dev subversion tree iotop gawk m4 zsh gcc-multilib g++-multilib libssl-dev curl
+sudo apt-get --assume-yes install vim tmux autoconf automake bison build-essential clang doxygen flex g++ git libncurses5-dev libtool libsqlite3-dev make mcpp python sqlite zlib1g-dev subversion tree iotop gawk m4 zsh gcc-multilib g++-multilib libssl-dev curl zip
 cd ~/Downloads
 wget https://gmplib.org/download/gmp/gmp-6.1.2.tar.bz2 && wget https://www.mpfr.org/mpfr-current/mpfr-4.0.2.tar.bz2 && wget ftp://ftp.gnu.org/gnu/mpc/mpc-1.1.0.tar.gz 
 tar xvf gmp-6.1.2.tar.bz2 -C ~/Softwares && tar xvf mpfr-4.0.2.tar.bz2 -C ~/Softwares && tar xvf mpc-1.1.0.tar.gz -C ~/Softwares
